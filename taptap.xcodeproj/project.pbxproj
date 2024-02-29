@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA98C3252B90597A007EAA3C /* taptapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98C3242B90597A007EAA3C /* taptapApp.swift */; };
+		FA98C3272B90597A007EAA3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98C3262B90597A007EAA3C /* ContentView.swift */; };
+		FA98C3292B90597B007EAA3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA98C3282B90597B007EAA3C /* Assets.xcassets */; };
+		FA98C32C2B90597B007EAA3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA98C32B2B90597B007EAA3C /* Preview Assets.xcassets */; };
+		FA98C3392B90A2B3007EAA3C /* RecipeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98C3382B90A2B3007EAA3C /* RecipeModels.swift */; };
+		FA98C33B2B90A2E8007EAA3C /* RecepiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98C33A2B90A2E8007EAA3C /* RecepiesViewModel.swift */; };
+		FA98C33D2B90A318007EAA3C /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98C33C2B90A318007EAA3C /* TabBar.swift */; };
+		FA98C33F2B90A32E007EAA3C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98C33E2B90A32E007EAA3C /* HomeView.swift */; };
+		FA98C3412B90A342007EAA3C /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98C3402B90A342007EAA3C /* CategoriesView.swift */; };
+		FA98C3432B90A355007EAA3C /* AddNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98C3422B90A355007EAA3C /* AddNewView.swift */; };
+		FA98C3452B90A378007EAA3C /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98C3442B90A378007EAA3C /* RecipeView.swift */; };
+		FA98C3472B90A395007EAA3C /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98C3462B90A395007EAA3C /* CategoryView.swift */; };
+		FA98C3492B90A3BB007EAA3C /* AddRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98C3482B90A3BB007EAA3C /* AddRecipeView.swift */; };
+		FA98C34B2B90A3D8007EAA3C /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98C34A2B90A3D8007EAA3C /* RecipeCard.swift */; };
+		FA98C34D2B90A3E6007EAA3C /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98C34C2B90A3E6007EAA3C /* RecipeList.swift */; };
+		FA98C3512B90A58F007EAA3C /* RecipeModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA98C34F2B90A58F007EAA3C /* RecipeModel.xcdatamodeld */; };
+		FA98C3532B90A8BD007EAA3C /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98C3522B90A8BD007EAA3C /* DataController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA98C3212B90597A007EAA3C /* taptap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taptap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA98C3242B90597A007EAA3C /* taptapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taptapApp.swift; sourceTree = "<group>"; };
+		FA98C3262B90597A007EAA3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA98C3282B90597B007EAA3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA98C32B2B90597B007EAA3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA98C3382B90A2B3007EAA3C /* RecipeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModels.swift; sourceTree = "<group>"; };
+		FA98C33A2B90A2E8007EAA3C /* RecepiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepiesViewModel.swift; sourceTree = "<group>"; };
+		FA98C33C2B90A318007EAA3C /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		FA98C33E2B90A32E007EAA3C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FA98C3402B90A342007EAA3C /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		FA98C3422B90A355007EAA3C /* AddNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewView.swift; sourceTree = "<group>"; };
+		FA98C3442B90A378007EAA3C /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		FA98C3462B90A395007EAA3C /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		FA98C3482B90A3BB007EAA3C /* AddRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeView.swift; sourceTree = "<group>"; };
+		FA98C34A2B90A3D8007EAA3C /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
+		FA98C34C2B90A3E6007EAA3C /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
+		FA98C3502B90A58F007EAA3C /* RecipeModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RecipeModel.xcdatamodel; sourceTree = "<group>"; };
+		FA98C3522B90A8BD007EAA3C /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA98C31E2B90597A007EAA3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA98C3182B90597A007EAA3C = {
+			isa = PBXGroup;
+			children = (
+				FA98C3232B90597A007EAA3C /* taptap */,
+				FA98C3222B90597A007EAA3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA98C3222B90597A007EAA3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA98C3212B90597A007EAA3C /* taptap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA98C3232B90597A007EAA3C /* taptap */ = {
+			isa = PBXGroup;
+			children = (
+				FA98C34E2B90A55E007EAA3C /* DataModel */,
+				FA98C3242B90597A007EAA3C /* taptapApp.swift */,
+				FA98C3342B905A02007EAA3C /* ViewModels */,
+				FA98C3322B9059CE007EAA3C /* Models */,
+				FA98C3282B90597B007EAA3C /* Assets.xcassets */,
+				FA98C3332B9059DB007EAA3C /* View */,
+				FA98C32A2B90597B007EAA3C /* Preview Content */,
+			);
+			path = taptap;
+			sourceTree = "<group>";
+		};
+		FA98C32A2B90597B007EAA3C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA98C32B2B90597B007EAA3C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA98C3322B9059CE007EAA3C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA98C3382B90A2B3007EAA3C /* RecipeModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA98C3332B9059DB007EAA3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA98C3372B90A281007EAA3C /* Main */,
+				FA98C3362B90A278007EAA3C /* Detail */,
+				FA98C3352B90A270007EAA3C /* Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA98C3342B905A02007EAA3C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FA98C33A2B90A2E8007EAA3C /* RecepiesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FA98C3352B90A270007EAA3C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FA98C34A2B90A3D8007EAA3C /* RecipeCard.swift */,
+				FA98C34C2B90A3E6007EAA3C /* RecipeList.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FA98C3362B90A278007EAA3C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				FA98C3442B90A378007EAA3C /* RecipeView.swift */,
+				FA98C3462B90A395007EAA3C /* CategoryView.swift */,
+				FA98C3482B90A3BB007EAA3C /* AddRecipeView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		FA98C3372B90A281007EAA3C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FA98C3262B90597A007EAA3C /* ContentView.swift */,
+				FA98C33C2B90A318007EAA3C /* TabBar.swift */,
+				FA98C33E2B90A32E007EAA3C /* HomeView.swift */,
+				FA98C3402B90A342007EAA3C /* CategoriesView.swift */,
+				FA98C3422B90A355007EAA3C /* AddNewView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FA98C34E2B90A55E007EAA3C /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA98C34F2B90A58F007EAA3C /* RecipeModel.xcdatamodeld */,
+				FA98C3522B90A8BD007EAA3C /* DataController.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA98C3202B90597A007EAA3C /* taptap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA98C32F2B90597B007EAA3C /* Build configuration list for PBXNativeTarget "taptap" */;
+			buildPhases = (
+				FA98C31D2B90597A007EAA3C /* Sources */,
+				FA98C31E2B90597A007EAA3C /* Frameworks */,
+				FA98C31F2B90597A007EAA3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = taptap;
+			productName = taptap;
+			productReference = FA98C3212B90597A007EAA3C /* taptap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA98C3192B90597A007EAA3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FA98C3202B90597A007EAA3C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = FA98C31C2B90597A007EAA3C /* Build configuration list for PBXProject "taptap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA98C3182B90597A007EAA3C;
+			productRefGroup = FA98C3222B90597A007EAA3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA98C3202B90597A007EAA3C /* taptap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA98C31F2B90597A007EAA3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA98C32C2B90597B007EAA3C /* Preview Assets.xcassets in Resources */,
+				FA98C3292B90597B007EAA3C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA98C31D2B90597A007EAA3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA98C3452B90A378007EAA3C /* RecipeView.swift in Sources */,
+				FA98C3512B90A58F007EAA3C /* RecipeModel.xcdatamodeld in Sources */,
+				FA98C3272B90597A007EAA3C /* ContentView.swift in Sources */,
+				FA98C3492B90A3BB007EAA3C /* AddRecipeView.swift in Sources */,
+				FA98C3432B90A355007EAA3C /* AddNewView.swift in Sources */,
+				FA98C3412B90A342007EAA3C /* CategoriesView.swift in Sources */,
+				FA98C34B2B90A3D8007EAA3C /* RecipeCard.swift in Sources */,
+				FA98C34D2B90A3E6007EAA3C /* RecipeList.swift in Sources */,
+				FA98C3472B90A395007EAA3C /* CategoryView.swift in Sources */,
+				FA98C3252B90597A007EAA3C /* taptapApp.swift in Sources */,
+				FA98C3532B90A8BD007EAA3C /* DataController.swift in Sources */,
+				FA98C33B2B90A2E8007EAA3C /* RecepiesViewModel.swift in Sources */,
+				FA98C33F2B90A32E007EAA3C /* HomeView.swift in Sources */,
+				FA98C3392B90A2B3007EAA3C /* RecipeModels.swift in Sources */,
+				FA98C33D2B90A318007EAA3C /* TabBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA98C32D2B90597B007EAA3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA98C32E2B90597B007EAA3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA98C3302B90597B007EAA3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"taptap/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taste.taptap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA98C3312B90597B007EAA3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"taptap/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taste.taptap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA98C31C2B90597A007EAA3C /* Build configuration list for PBXProject "taptap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA98C32D2B90597B007EAA3C /* Debug */,
+				FA98C32E2B90597B007EAA3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA98C32F2B90597B007EAA3C /* Build configuration list for PBXNativeTarget "taptap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA98C3302B90597B007EAA3C /* Debug */,
+				FA98C3312B90597B007EAA3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA98C34F2B90A58F007EAA3C /* RecipeModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA98C3502B90A58F007EAA3C /* RecipeModel.xcdatamodel */,
+			);
+			currentVersion = FA98C3502B90A58F007EAA3C /* RecipeModel.xcdatamodel */;
+			path = RecipeModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA98C3192B90597A007EAA3C /* Project object */;
+}
